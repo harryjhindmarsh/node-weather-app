@@ -1,0 +1,81 @@
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    letter-spacing: 3px;
+    margin-bottom: 48px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 65px;
+}
+
+.navbar {
+    color: black;
+    width: 100%;
+    font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input {
+    border: 1px solid lightblue;
+    padding: 8px;
+    width: 70%
+}
+
+button {
+    border: 1px solid lightblue;
+    padding: 8px;
+    color: black;
+    cursor: pointer;
+    width: 15%
+}
+
+#message-one {
+
+}
+
+.profile {
+    width: 250px;
+    margin-top: 10px;
+}
+
+.help-text {
+    color: black;
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
+
+footer p {
+    text-align: right;
+}
