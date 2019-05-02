@@ -23,22 +23,22 @@ app.use(express.static(publicDirectoryPath)) // use is used to customize our ser
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather App',
+        title: 'weather app',
         name: 'Harry Hindmarsh',
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About me',
+        title: 'about me',
         name: 'Harry Hindmarsh',
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        title: 'Help Page',
-        helpTextMessage: 'What do you need help with?',
+        title: 'help page',
+        helpTextMessage: 'for all enquires please email hjhindmarsh@outlook.com',
         name: 'Harry Hindmarsh',
     })
 })

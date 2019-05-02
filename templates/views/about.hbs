@@ -5,14 +5,23 @@
         <title>About</title>
         <link rel="icon" href="/img/weather.png">
         <link rel="stylesheet" href="/css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
         <body>
             <div class="main-content">
                 {{>header}}
-                <p>This website was created by Harry Hindmarsh. It uses Data from darksky.net and mapbox.com</p>
+            <div class="about-text-box">
+                <p class="about-text">
+                    Since November 2018 I have been taking online courses via Udemy and currently utilising the skills learned from each course on personal projects to enhance my Web Development skills. 
+                    For this project I used mainly Node, Express, Handlebars, Git and Heroku, whilst also using basic HTML and CSS. All Data used is provided by darksky.net and mapbox.com API's.
+                </p>
+            </div>
+            <div class="profile-pic">
                 <img class="profile" src="/img/profile.jpeg">
             </div>
-
-            {{>footer}}
+            </div>
+            <div>
+               {{>footer}}
+            </div>
         </body>
     </head>
 </html>
